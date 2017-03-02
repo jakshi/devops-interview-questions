@@ -18,6 +18,7 @@ Repository with DevOps interview questions.
         * What is the complexity of quick sort?
     * Distributed systems:
         * What’s Paxos?
+        * What's Raft?
         * What’s consistent hashing?
     * Hands-on coding:
         * Inverse a string in place
@@ -25,35 +26,33 @@ Repository with DevOps interview questions.
 ## DevOps
 
 * What DevOps is? Why do we need it?
-Example of answers:
-
-Increase deployment frequency
-Lower failure rate of new releases
-Shortened lead time between fixes
-Faster mean time to recovery in the event of new release crashing
-                
-CALMS
-C – Culture (promotes collaborative and open culture between Dev and Ops)
-A – Automation (automate wherever applicable)
-L- Learning (continuous learning & experimentation)
-M – Measure (Measure with shared metrics across the Dev and ops for better management)
-S – Sharing (Shared delivery process across Dev and Ops to build , deploy, maintain and monitor product with mentality of One Team – One Goal)
-                
+    * Example of answers:
+        * Why do we need it?
+            * Increase deployment frequency
+            * Lower failure rate of new releases
+            * Shortened lead time between fixes
+            * Faster mean time to recovery in the event of new release crashing
+        * What DevOps is?
+            * CALMS
+            * C – Culture (promotes collaborative and open culture between Dev and Ops)
+            * A – Automation (automate wherever applicable)
+            * L- Learning (continuous learning & experimentation)
+            * M – Measure (Measure with shared metrics across the Dev and ops for better management)
+            * S – Sharing (Shared delivery process across Dev and Ops to build , deploy, maintain and monitor product with mentality of One Team – One Goal)
 * What is the purpose of a post-mortem meeting?
 * What is meant by Continuous Integration?
 * What are the success factors for Continuous Integration?
-Examples of answers:
-                
-Maintain a code repository
-Automate the build
-Make the build self-testing
-Everyone commits to the baseline every day
-Every commit (to baseline) should be built
-Keep the build fast
-Test in a clone of the production environment
-Make it easy to get the latest deliverables
-Everyone can see the results of the latest build
-Automate deployment
+  * Examples of answers:
+      * Maintain a code repository
+      * Automate the build
+      * Make the build self-testing
+      * Everyone commits to the baseline every day
+      * Every commit (to baseline) should be built
+      * Keep the build fast
+      * Test in a clone of the production environment
+      * Make it easy to get the latest deliverables
+      * Everyone can see the results of the latest build
+      * Automate deployment
 * How would you implement CI (continuous delivery) - end to end, including source control, branches, tools, etc. ?
 * What is Continious Delivery? Continious Deployment?
 * What is the difference between Continuous Integration, Continious Delivery and Continious Deployment?
@@ -94,7 +93,7 @@ Automate deployment
 * What is the difference between processes and threads?
 * What is the difference between exec and fork?
 * How nginx can handle a lot of connections? What does it use inside?
-Example of answer: Eventloop.
+    * Example of answer: Eventloop.
 * What is "nohup" used for?
 * What is an atomic operation?
 * I've added my public ssh key into authorized_keys but I'm still getting a password prompt, what can be wrong?
