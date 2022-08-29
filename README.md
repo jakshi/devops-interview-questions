@@ -51,7 +51,7 @@ Repository with DevOps interview questions.
   * tcpdump
 * How many bits is in IPv6 address? 
   * 128 bits
-* data structure with O(N) complexity to access value by key?
+* data structure with O(1) complexity to access value by key?
   * Dictionary/Hash
 
 ## Programming
