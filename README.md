@@ -18,41 +18,41 @@ Repository with DevOps interview questions.
 ## Simple intro questions for candidate (can be given to HR for initial screening)
 
 * which network protocol is used to synchronise clocks?
-  * *NTP
+  * **NTP**
 * how to check for Linux syscalls of a running process?
-  * strace
+  * **strace**
 * on Unix systems, the file descriptor number 2 is?
-  * stderr
+  * **stderr**
 * where is the upstream DNS server address stored on Linux?
-  * check /etc/resolv.conf or resolvectl --status
+  * check `/etc/resolv.conf` or `resolvectl --status`
 * on Unix systems, which syscall is used to create a new process from an already running process?
-  * fork
+  * **fork**
 * what process states do you know?
-  * Spawn
-  * Waiting
-  * Runnable
-  * Running
-  * Stopped
-  * Zombie
-  * Removed from process table
+  * **Spawn**
+  * **Waiting**
+  * **Runnable**
+  * **Running**
+  * **Stopped**
+  * **Zombie**
+  * **Removed from process table**
 * what signal child process send to parent process on exit?
-  * SIGCHILD
+  * **SIGCHILD**
 * *on Linux, what's the ID number of the init process?
-  * 1
+  * **1**
 * /var/log/syslog contains messages that starts with `I/O error occurred`, what could it mean?
   * hardware issues with hard drive
 * O(N) O(logN) O(N*N) - which one is faster?
-  * *O(logN)
+  * **O(logN)**
 * which protocol ping uses?
-  * ICMP
+  * **ICMP**
 * What is NAT?
   * Network Address Translation
 * How to see network packets?
-  * tcpdump
+  * `tcpdump`
 * How many bits is in IPv6 address? 
-  * 128 bits
+  * **128 bits**
 * data structure with O(N) complexity to access value by key?
-  * Dictionary/Hash
+  * **Dictionary/Hash**
 
 ## Programming
 
@@ -120,7 +120,7 @@ Repository with DevOps interview questions.
 * What is caching ? Where should a large scale application cache, and what data should be cached ?
 
 ## SysOps
-                                                        
+
 * What is your favorite editor?
 * What is RAID? What is RAID0, RAID1, RAID5, RAID10?
 * Describe the general file system hierarchy of a Linux system.
@@ -133,7 +133,7 @@ Repository with DevOps interview questions.
     * tail
     * sed
 * Command line demo:
-  * Search for "my konfu is the best" in all *.py files
+  * Search for "my konfu is the best" in all `*.py` files
   * Replace the occurrence of "my konfu is the best" with "I'm a linux jedi master" in all *.txt files
   * Find all files which have been accessed within the last 30 days
 * What is the difference between virtual memory and swap ?
@@ -170,7 +170,10 @@ Repository with DevOps interview questions.
 
 ## NetOps/Networking
 
-* What is IPv6 ? Why should we care?
+* What is time synchronization? Why do we need it?
+  * **NTP**
+  * TLS certificates
+  * ID generation in distributed systems
 * How does ping work ? What about traceroute ?
 * I type http://www.yahoo.com in my browser’s URL bar and I press enter. What happens ? (discuss at every OSI layer - Physical, data link, network, transport, session, presentation, application)
     * DNS & anycast, IP, UDP, routing, BGP, TCP, HTTP, transparent proxy
@@ -198,6 +201,9 @@ Repository with DevOps interview questions.
 
 ## SecOps/Security
 
+* What is the difference between authentication and authorization?
+* What is SSO? How does it work?
+* What about SCIM bridge? Why do we need to have SCIM bridge if we already have SSO?
 * On a newly installed linux machine, what would you change in /etc/ssh/sshd_config?
 * When would you use the TARPIT iptables target?
 * You notice that the 20 year old web application stores the user's passwords hashed with MD5. How would you migrate to a new hash?
