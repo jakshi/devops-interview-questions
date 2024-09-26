@@ -18,41 +18,43 @@ Repository with DevOps interview questions.
 ## Simple intro questions for candidate (can be given to HR for initial screening)
 
 * which network protocol is used to synchronise clocks?
-  * **NTP**
+    * **NTP**
 * how to check for Linux syscalls of a running process?
-  * **strace**
+    * **strace**
 * on Unix systems, the file descriptor number 2 is?
-  * **stderr**
+    * **stderr**
 * where is the upstream DNS server address stored on Linux?
-  * check `/etc/resolv.conf` or `resolvectl --status`
+    * check `/etc/resolv.conf` or `resolvectl --status`
 * on Unix systems, which syscall is used to create a new process from an already running process?
-  * **fork**
+    * **fork**
 * what process states do you know?
-  * **Spawn**
-  * **Waiting**
-  * **Runnable**
-  * **Running**
-  * **Stopped**
-  * **Zombie**
-  * **Removed from process table**
+    * **Spawn**
+    * **Waiting**
+    * **Runnable**
+    * **Running**
+    * **Stopped**
+    * **Zombie**
+    * **Removed from process table**
 * what signal child process send to parent process on exit?
-  * **SIGCHILD**
+    * **SIGCHILD**
 * *on Linux, what's the ID number of the init process?
-  * **1**
+    * **1**
 * /var/log/syslog contains messages that starts with `I/O error occurred`, what could it mean?
-  * hardware issues with hard drive
+    * hardware issues with hard drive
 * O(N) O(logN) O(N*N) - which one is faster?
-  * **O(logN)**
+    * **O(logN)**
 * which protocol ping uses?
-  * **ICMP**
+    * **ICMP**
 * What is NAT?
-  * Network Address Translation
+    * Network Address Translation
 * How to see network packets?
-  * `tcpdump`
+    * `tcpdump`
 * How many bits is in IPv6 address? 
-  * **128 bits**
+    * **128 bits**
 * data structure with O(N) complexity to access value by key?
-  * **Dictionary/Hash**
+    * **Dictionary/Hash**
+* What's the order if execution in SQL query? 
+    * **FROM, JOIN, WHERE, GROUP BY, HAVING, SELECT, ORDER BY.**
 
 ## Programming
 
